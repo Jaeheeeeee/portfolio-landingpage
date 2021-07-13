@@ -1,0 +1,815 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: 'DM Sans',sans-serif;
+  color: #2B292D;
+}
+
+
+/* mobile common style */
+button {
+  font-family: 'DM Sans',sans-serif;
+}
+
+.homepage p {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+  font-weight: 400;
+}
+
+.btnStyle {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 140px;
+  height: 48px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  font-size: 15px;
+  line-height: 1.6;
+  letter-spacing: -0.05em;
+  font-weight: 600;
+  transition: transform 400ms ease-out;
+}
+
+.btnStyle:hover {
+  transform: scale(110%);
+}
+
+ /* mobile main page */
+
+.main-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 568px;
+  padding: 15px;
+  background-color: #FDDED8;
+}
+
+
+.main-top-title {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 24px;
+  font-size: 40px;
+  line-height: 1;
+  letter-spacing: -0.05em;
+  font-weight: 600;
+}
+
+.main-top-contents.mobile-only {
+  margin-bottom: 24px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.375;
+  letter-spacing: -0.01em;
+  font-weight: 400;
+}
+
+.desktop-only {
+  display: none;
+}
+
+.main-top-btn {
+  display: flex;
+}
+
+.main-page-AplBtn {
+  margin-right: 8px;
+}
+
+.main-page-AplBtn,
+#emailBtn {
+  background-color: #3040C4;
+  color: #ffffff;
+}
+
+.main-page-moreBtn {
+  background-color: #ffffff;
+  color: #3040C4;
+}
+
+.main-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: space-around;
+  width: ;
+  padding: 15px;
+  width: 100%;
+  height: 496px;
+  background-color: #F4F5F7;
+}
+
+.main-bottom h2 {
+  font-size: 22px;
+  line-height: 1.3636363636;
+  letter-spacing: -0.04em;
+  font-weight: 600;
+}
+
+.main-bottom-tech>h2,
+.main-bottom-app>h2 {
+  margin-bottom: 16px;
+}
+
+ /* mobile program page (2) */
+
+.program {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 1377px;
+  padding: 15px;
+}
+
+
+.program-mian>span,
+.curriculum-main-contents>span {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+  font-weight: 600;
+}
+
+.program-mian>span{
+  color: #009B4D;
+}
+
+
+.program-main-title,
+.curriculum-main-contents>h1{
+  margin-bottom: 24px;
+  font-size: 34px;
+  line-height: 1.0588235294;
+  letter-spacing: -0.03em;
+  font-weight: 600;
+}
+
+.program-main-contents,
+.curriculum-main-contents p {
+  margin-bottom: 32px;
+  width: 100%;
+}
+
+.program-img a:hover {
+  transform: scale(105%);
+}
+
+.program-img a {
+  transition: transform 400ms ease-in-out;
+}
+
+.program-img-frist,
+.program-img-second,
+.program-img-third {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 290px;
+  height: 291px;
+  max-width: 299px;
+  border-radius: 8px;
+  box-shadow: 2px 5px 7px  rgb(32,23,32, 40%), 0 -1px 6px  rgba(88, 75, 88, 0.4);
+  text-decoration: none;
+}
+
+
+
+.program-img-campus,
+.program-img-remoto,
+.program-img-flex {
+  width: 100%;
+  height: 195px;
+  margin-bottom: 15px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.program-img-campus {
+  background-image: url('/assets/img-fulltime-campus.png');
+  
+}
+
+.program-img-remoto {
+  background-image: url('/assets/img-fulltime-remote.png');
+}
+
+.program-img-flex {
+  background-image: url('/assets/img-parttime-flex.png');
+}
+
+.program-img dd {
+  font-size: 16px;
+  line-height: 1.33333333;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+  color: #2B292D;
+}
+
+/* mobile curriculm page (3) */
+
+.curriculum {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 706px;
+  padding: 15px;
+}
+
+.curriculum-main-contents>span{
+  color: #0189D1;
+}
+
+.curriculum-main-contents {
+  margin-bottom: 48px
+}
+
+#curriculum-bottom-projects,
+#curriculum-bottom-support {
+  font-size: 15px;
+  line-height: 1.4666666667;
+  letter-spacing: -0.01em;
+  margin-bottom: 40px;
+}
+
+
+
+
+/* mobile fourth page */
+
+.subscribe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  width: 100%;
+  height: 588px;
+  background-color: #F2F8FA;
+}
+
+.subscribe-maim-imgbox {
+  width: 100%;
+  max-width: 287px;
+  height: 28vh;
+  margin-bottom: 16px;
+}
+
+.subscribe-main-img {
+  width: 100%;
+  height: 100%;
+  background-image: url(/assets/img-subscription.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+.subscribe-main-email>h1 {
+  text-align: center;
+  margin-bottom: 16px;
+  font-size: 32px;
+  line-height: 1;
+  font-weight: 600;
+  letter-spacing: -0.05em;
+}
+
+.subscribe-main-email>p {
+  margin-bottom: 24px;
+}
+
+
+.subscribe-cancelBtn {
+  display: flex;
+  justify-content: center;
+  font-size: 13px;
+  line-height: 1.666666666;
+  color: #7B7B7E;
+}
+
+.subscribe-cancelBtn>a {
+  color: #3040C4;
+}
+
+#emailBox {
+  margin-bottom: 8px;
+  width: 100%;
+  height: 48px;
+  padding: 12px 16px;
+  font-family: 'DM Sans',sans-serif;
+  font-size: 16px;
+  color: #7B7B7E;
+  border: none;
+}
+
+#emailBox:focus{
+  outline: 2px solid #cf11119c;
+}
+
+#emailBtn {
+  width: 100%;
+  height: 48px;
+  padding: 12px 16px;
+  margin-bottom: 8px;
+}
+
+
+/* mobile footer page */
+.footer-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 136px;
+  padding: 15px;
+}
+
+.footer-menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.footer-menu a {
+  font-size: 14px;
+  line-height: 1.7142857143;
+  letter-spacing: -0.01em;
+  color: #807F81;
+  text-decoration: none;
+}
+
+
+@media screen and (min-width: 486px){
+
+  /* 1400px common style */
+
+  .homepage p {
+    font-size: 22px;
+    line-height: 1.4545454545;
+    letter-spacing: -0.01em;
+  }
+
+  .btnStyle {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 56px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 1.555555555;
+    letter-spacing: -0.05em;
+    font-weight: 600;
+  }
+
+  /* 1440px main page (1) */
+  .mobile-only {
+    display: none;
+  }  
+  .desktop-only {
+    display: flex;
+  }
+
+
+  .main-top-title {
+    margin-bottom: 32px;
+    font-size: 70px;
+    line-height: 1.0285714286;
+    letter-spacing: -0.05em;
+    font-weight: 600;
+  }
+
+  .main-top-contents.desktop-only {
+    margin-bottom: 32px;
+    font-size: 22px;
+    line-height: 1.4545454545;
+    letter-spacing: -0.01em;
+    text-align: center;
+  }
+
+  .main-page-AplBtn {
+    margin-right: 16px;
+  }
+
+  .main-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+    align-content: space-around;
+    width: 100%;
+    height: 344px;
+    padding: 20px 300px;
+  }
+
+  .main-bottom-app {
+    width: 100%;
+    max-width: 450px;
+    height: 100%;
+    max-height: 180px;
+    margin: 15px;
+  }
+
+  .main-bottom-tech {
+    width: 100%;
+    max-width: 369px;
+    height: 100%;
+    max-height: 180px;
+    margin: 15px;
+  }
+
+  .main-bottom h2 {
+    width: auto;
+    height: auto;
+    font-size: 26px;
+    line-height: 1.3076923077;
+    letter-spacing: -0.04em;
+    font-weight: 600;
+  }
+
+  .main-bottom-tech>p,
+  .main-bottom-app>p {
+    width: 100%;
+    height: auto;
+  }
+
+
+  /* 1440px program page (2) */
+
+  .program {
+    width: 100%;
+    height: fit-content;
+    padding: 80px 0;
+  }
+
+  .program-mian {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .program-main-title,
+  .program-main-contents {
+    width: 100%;
+    max-width: 770px;
+    text-align: center;
+  }
+
+  .program-img>dl {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .program-mian>span,
+  .curriculum-main-contents>span {
+  display:block;
+  margin-bottom: 16px;
+  font-size: 22px;
+  line-height: 1.09090909009;
+  letter-spacing: -0.01em;
+  font-weight: 600;
+  color: #009B4D;
+}
+
+.program-main-title,
+.curriculum-main-contents>h1{
+  margin-bottom: 32px;
+  font-size: 56px;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  font-weight: 600;
+}
+
+.program-main-contents,
+.curriculum-main-contents p {
+  margin-bottom: 72px;
+}
+
+.program-img-frist,
+.program-img-second,
+.program-img-third {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 290px;
+  height: 299px;
+  margin: 15px;
+}
+
+.program-img dd {
+  font-size: 20px;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+  color: #2B292D;
+}
+
+.program-img-second {
+  background-color: #3141C5;
+}
+
+.program-img-second dd{
+  color: #fff;
+}
+
+/* 1440px curriculm page (3) */
+
+.curriculum {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: fit-content;
+  padding: 80px 20px;
+}
+
+.curriculum-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  height: auto;
+}
+
+.curriculum-main-contents {
+  width: 100%;
+  max-width: 450px;
+  margin: 15px;
+}
+
+
+
+.curriculum-main-contents>p {
+  margin-bottom: 72px;
+}
+
+.curriculum-bgc {
+  width: 100%;
+  max-width: 380px;
+  height: 380px;
+  margin: 15px;
+  background-image: url(/assets/img-curriculum.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.curriculum-bottom {
+  display: flex; 
+}
+
+
+#curriculum-bottom-projects,
+#curriculum-bottom-support {
+  width: 100%;
+  max-width: 450px;
+  font-size: 18px;
+  line-height: 1.4444444444;
+  letter-spacing: -0.01em;
+  margin-bottom: 0;
+  margin: 15px;
+}
+
+/* 1440px subscribe page (last) */
+
+.subscribe {
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+  flex-wrap: wrap;  
+  height: 460px;
+  padding: 80px 400px;
+}
+
+.subscribe-main-email {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.subscribe-maim-imgbox {
+  width: 100%;
+  max-width: 287px;
+  height: 35vh;
+  margin-right: 24px;
+}
+
+.subscribe-main-email>h1 {
+  font-size: 40px;
+  line-height: 1;
+  font-weight: 600;
+}
+
+.subscribe-main-email>p {
+  width: 100%;
+  max-width: 530px;
+  height: auto;
+}
+
+#emailForm {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#emailBox {
+  width: 362px;
+  height: 56px;
+  padding: 16px;
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+  margin: 0 8px 4px 0;
+}
+
+#emailBtn {
+  width: 160px;
+  height: 54.58px;
+  padding: 15px 28px;
+}
+
+.subscribe-cancelBtn {
+  font-size: 14px;
+  line-height: 1.7142857143;
+}
+
+/* 1440px footer page */
+
+
+.footer-menu {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 56px;
+  padding: 15px;
+}
+
+.footer-menu ul {
+  margin-left: 155px;
+}
+
+
+.footer-menu li {
+  display: inline-block;
+  margin: 16px 8px;
+}
+
+}
+
+
+@media screen and (min-width: 805px) and (max-width: 974px) {
+  
+
+  /* pad main page (1) */
+
+
+  .main-bottom-tech,
+  .main-bottom-app {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
+
+  /* pad prgram page (2) */
+
+  .program {
+    padding: 40px;
+  }
+
+  .program-main-title,
+  .curriculum-main-contents>h1{
+  margin-bottom: 24px;
+  font-size: 48px;
+  line-height: 1.0588235294;
+  letter-spacing: -0.03em;
+  font-weight: 600;
+}
+
+
+  /* pad curriculm page (3) */
+
+
+ *
+  .curriculum-bgc {
+    width: 100%;
+    max-width: 250px;
+    margin: 0;
+    background-image: url(/assets/img-curriculum.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+  }
+
+  .curriculum-main-contents>p {
+    margin-bottom: 50px;
+  }
+
+  #curriculum-bottom-projects,
+  #curriculum-bottom-support {
+    width: 100%;
+    max-width: 370px;
+    height: auto;
+  }
+
+  /* pad subscribe page (last) */
+  
+  .subscribe {
+    padding: 70px 20px;
+    justify-content: space-between;
+    align-content: space-around;
+    
+  }
+
+  .subscribe-maim-imgbox {
+    width: 100%;
+    max-width: 300px;
+    height: 35vh;
+    margin-right: 24px;
+  }
+  
+  .subscribe-main-email>h1,
+  .subscribe-main-email>p {
+    display: inline-block;
+    width: 100%;
+    max-width: fit-content;
+  }
+
+  #emailBox {
+    width: 100%;
+    height: 56px;
+    padding: 16px;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: -0.01em;
+    margin: 8px 0;
+  }
+
+  #emailBtn {
+    width: 100%;
+    height: 54.58px;
+    padding: 15px 28px;
+  }
+
+  /* pad footer page */
+
+  .footer-menu ul {
+    margin-left: 20px;
+  }
+  
+}
+
+@media screen and (max-width: 804px) and (min-width:486px){
+
+/* 804이하 main page (1) */
+
+.main-top {
+  padding: 40px;
+}
+
+.main-top-title {
+  font-size: 56px;
+}
+
+  .main-bottom {
+    width: 100%;
+    height: fit-content;
+    flex-direction: column;
+    padding: 40px;
+  }
+
+  .main-bottom-tech,
+  .main-bottom-app {
+    width: 100%;
+    max-width: fit-content;
+    height: 100%;
+    max-height: fit-content;
+    margin-bottom: 30px;
+  }
