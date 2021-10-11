@@ -102,7 +102,7 @@ button {
   flex-direction: column;
   justify-content: center;
   justify-content: space-around;
-  width: ;
+  width: 100%;
   padding: 15px;
   width: 100%;
   height: 496px;
@@ -201,16 +201,16 @@ button {
 }
 
 .program-img-campus {
-  background-image: url('/assets/img-fulltime-campus.png');
+  background-image: url('./assets/img-fulltime-campus.png');
   
 }
 
 .program-img-remoto {
-  background-image: url('/assets/img-fulltime-remote.png');
+  background-image: url('./assets/img-fulltime-remote.png');
 }
 
 .program-img-flex {
-  background-image: url('/assets/img-parttime-flex.png');
+  background-image: url('./assets/img-parttime-flex.png');
 }
 
 .program-img dd {
@@ -275,7 +275,7 @@ button {
 .subscribe-main-img {
   width: 100%;
   height: 100%;
-  background-image: url(/assets/img-subscription.png);
+  background-image: url(./assets/img-subscription.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
@@ -576,7 +576,7 @@ li {
   max-width: 380px;
   height: 380px;
   margin: 15px;
-  background-image: url(/assets/img-curriculum.png);
+  background-image: url(./assets/img-curriculum.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
@@ -717,12 +717,12 @@ li {
   /* pad curriculm page (3) */
 
 
- *
+
   .curriculum-bgc {
     width: 100%;
     max-width: 250px;
     margin: 0;
-    background-image: url(/assets/img-curriculum.png);
+    background-image: url(./assets/img-curriculum.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center center;
